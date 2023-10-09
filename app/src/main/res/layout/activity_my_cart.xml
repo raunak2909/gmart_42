@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:background="@color/offWhite"
+    android:layout_height="match_parent"
+    tools:context=".screen.MyCartActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:background="@color/offWhite"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Cart"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/btnBack"
+        android:layout_width="@dimen/_40sdp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="@dimen/_12sdp"
+        android:background="@drawable/round_btn_white"
+        android:layout_height="@dimen/_40sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_arrow_back_ios_24"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="0dp"
+        android:id="@+id/recViewProduct"
+        android:layout_marginTop="@dimen/_27sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
