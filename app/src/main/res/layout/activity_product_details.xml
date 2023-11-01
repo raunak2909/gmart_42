@@ -17,7 +17,6 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:background="@color/white"
-
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -94,8 +93,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:background="@drawable/btn_round_add_to_cart"
-                android:layout_marginStart="@dimen/_30sdp"
-              >
+                android:layout_marginStart="@dimen/_30sdp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -214,6 +212,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:id="@+id/btnDescription"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_30sdp"
                     android:layout_marginStart="@dimen/_15sdp"
@@ -222,6 +221,7 @@
                     android:gravity="center">
 
                     <TextView
+                        android:id="@+id/txtDescription"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -232,14 +232,16 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btnSpecification"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_30sdp"
                     android:layout_marginStart="@dimen/_15sdp"
-                    android:layout_weight="1"
 
+                    android:layout_weight="1"
                     android:gravity="center">
 
                     <TextView
+                        android:id="@+id/txtSpecification"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -250,15 +252,17 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btnReviews"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_30sdp"
                     android:layout_marginStart="@dimen/_15sdp"
                     android:layout_marginEnd="@dimen/_15sdp"
-                    android:layout_weight="1"
 
+                    android:layout_weight="1"
                     android:gravity="center">
 
                     <TextView
+                        android:id="@+id/txtReview"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Reviews"

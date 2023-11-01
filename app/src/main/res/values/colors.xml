@@ -4,9 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#999999</color>
     <color name="transparent">#00FFFFFF</color>
-<color name="orange">#FF660E</color>
+    <color name="orange">#FF660E</color>
     <color name="offWhite">#E3E3E3</color>
-<color name="purple">#840ACD</color>
+    <color name="purple">#840ACD</color>
     <color name="navy_blue">#283593</color>
     <color name="mustard">#FF8F00</color>
 </resources>
