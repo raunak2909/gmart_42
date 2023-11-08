@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "708555350584",
+    "project_id": "gmart-d91d2",
+    "storage_bucket": "gmart-d91d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708555350584:android:ca9d665c8a7a970fb6fccd",
+        "android_client_info": {
+          "package_name": "com.example.gmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm8BMWTScQiqXXEXz85af1t56rnqgUH_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
